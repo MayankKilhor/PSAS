@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Home Page{% endblock %}
+{% block content %}
+<div class="materialContainer">
+     <div class="box">
+       <div class="title"><a href="/"><b>Software Engineering</b>Project</a></br></div>
+       <div class="button login">
+          <button type="button" name="btn_login" onclick="window.location.href='{{ url_for( 'task1') }}'" ><span>1. Multiple Link opener</span><i class="fa fa-check"></i></button>
+       </div>
+       <div class="button login">
+           <button type="button" name="btn_login" onclick="window.location.href='{{ url_for( 'task2') }}'" ><span>2. Weather report</span> <i class="fa fa-check"></i></button>
+        </div>
+        <div class="button login">
+            <button type="button" name="btn_login" onclick="window.location.href='{{ url_for( 'task3') }}'" ><span>3. Image scraper</span> <i class="fa fa-check"></i></button>
+         </div>
+         <div class="button login">
+            <button type="button" name="btn_login" onclick="window.location.href='{{ url_for( 'task4') }}'" ><span>4. News scraper</span> <i class="fa fa-check"></i></button>
+         </div>
+         <div class="button login">
+            <button type="button" name="btn_login" onclick="window.location.href='{{ url_for( 'task5') }}'" ><span>5. Facebook login automation</span> <i class="fa fa-check"></i></button>
+         </div>
+    </div>
+ </div>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Task2 Result Page{% endblock %}
+{% block content %}
+<div class="materialContainer">
+
+    <div class="box">
+
+      <div class="title"><a href="/task2"><b>Task</b>2</a></<br></div>
+
+      <div class="input">
+         <h1><label for="name">{{ location }}</label></h1>
+      </div>
+        <h2>Temperature:- {{ temp }}° C</h2>
+        <h2>Wind:- {{ wind }}</h3>
+        <h2>Humidity:- {{ humid }}</h3>
+        <h2>Status:- {{ status }}</h4>
+      <div class="button login">
+         <button type="button" onclick="window.location.href='{{ url_for('home') }}'"><span>Back to Home</span> <i class="fa fa-check"></i></button>
+      </div>
+
+      
+   </div>
+</div>
+
+<!-- <div id="weatherResults">
+    <h3>Weather in {{ location }}</h3>
+    <h2>{{ temp }}° F</h2>
+    <h3>{{ wind }}</h3>
+    <h3>{{ humid }}</h3>
+    <h4>Feels like: {{ status }}</h4>
+</div>
+<a href="/" >Back to Weather Scrapper</a> -->
+{% endblock %}

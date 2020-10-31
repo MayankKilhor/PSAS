@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Task2 Page{% endblock %}
+{% block content %}
+
+<div class="materialContainer">
+    <form action="{{ url_for('task2_results') }}" method="post">
+     <div class="box">
+ 
+       <div class="title"><a href="/task2"><b>Task</b>2</a></<br></div>
+ 
+       <div class="input">
+          <label for="name">Location:- </label>
+          <input type="text" name="location" id="name" required>
+          <span class="spin"></span>
+       </div>
+ 
+       
+ 
+       <div class="button login">
+          <button type="submit" value="Submit" name="btn_login"><span>Login</span> <i class="fa fa-check"></i></button>
+       </div>
+ 
+ 
+    </div>
+     </form>
+ </div>
+<!-- <form class="weatherText" id="weatherForm" action="{{ url_for('task2_results') }}" method="post">
+    Location : <input class="weatherText" id="weatherInput" type="text" name="location"><br>
+    <input class="weatherText" id="weatherSubmit" type="submit" value="Submit"> -->
+{% endblock %}

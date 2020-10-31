@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Task1 Page{% endblock %}
+{% block content %}
+
+<div class="materialContainer">
+    <form action="{{ url_for('task1_option') }}" method="post">
+     <div class="box">
+ 
+       <div class="title"><a href="/task1"><b>Task</b> 1</a><br></div>
+        <div class="input">
+            <label type="name">Options</label>
+        </div>
+      
+        <input type="radio"  name="option" value="1">
+        <label for="option">With Prefix(https://www.)</label><br>
+        <input type="radio"  name="option" value="2">
+        <label for="option">Without Prefix</label><br>
+       
+        <div class="input">
+            <label for="name">Link</label>
+            <input type="text" name="link" id="name" required>
+            <span class="spin"></span>
+         </div>
+       <!-- <div class="input"> -->
+          <!-- <label for="pass">Link</label>
+          <input  type="text" name="link"><br> -->
+       <!-- </div> -->
+ 
+       <div class="button login">
+          <button type="submit" value="Submit" name="btn_login"><span>Login</span> <i class="fa fa-check"></i></button>
+       </div>
+ 
+      
+    </div>
+     </form>
+ </div>
+<!-- <form  action="{{ url_for('task1_option') }}" method="post">
+    
+    
+            <input type="radio"  name="option" value="1">
+            <label for="option">With Prefix(https://www.)</label><br>
+            <input type="radio"  name="option" value="2">
+            <label for="option">Without Prefix</label><br>
+            <input  type="text" name="link"><br>
+    <input class="weatherText" id="weatherSubmit" type="submit" value="Submit"> -->
+{% endblock %}

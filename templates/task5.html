@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Task5 Page{% endblock %}
+{% block content %}
+<div class="materialContainer">
+    <form action="{{ url_for('task5_result') }}" method="post">
+     <div class="box">
+ 
+       <div class="title"><a href="/task5"><b>Task</b> 5</a></<br></div>
+ 
+       <div class="input">
+          <label for="name">Email</label>
+          <input type="email" name="username" id="name" required>
+          <span class="spin"></span>
+       </div>
+ 
+       <div class="input">
+          <label for="pass">Password</label>
+          <input type="password" name="password" id="pass" required>
+          <span class="spin"></span>
+       </div>
+ 
+       <div class="button login">
+          <button  name="btn_login" type="submit" value="Submit"><span>Login</span> <i class="fa fa-check"></i></button>
+       </div>
+ 
+      
+    </div>
+     </form>
+ </div>
+<!-- 
+<form  action="{{ url_for('task5_result') }}" method="post">
+    Location : <input  type="text" name="username"><br>
+    Password:  <input  type="password" name="password"><br>
+    <input type="submit" value="Submit"> -->
+{% endblock %}

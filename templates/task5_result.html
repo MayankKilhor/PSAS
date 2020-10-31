@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Task5 Result Page{% endblock %}
+{% block content %}
+<div class="materialContainer">
+
+    <div class="box">
+
+      <div class="title"><a href="/task5"><b>Task</b> 5</a><br></div>
+
+      <div class="input">
+         <label for="name">Your Link will be Opening Soon</label>
+         
+      </div>
+
+      <div class="button login">
+         <button type="button" onclick="window.location.href='{{ url_for('home') }}'"><span>Back to Home</span> <i class="fa fa-check"></i></button>
+      </div>
+
+      
+   </div>
+</div>
+<!-- <div id="weatherResults">
+    <h3>Your link will be opening rn</h3>
+</div> -->
+{% endblock %}
