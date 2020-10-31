@@ -55,5 +55,5 @@ Run the following scripts in terminal of above code directory
 
 •	pip install Flask
 
-
+•	python index.py
 
