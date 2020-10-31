@@ -57,3 +57,11 @@ Run the following scripts in terminal of above code directory
 
 •	python index.py
 
+## Contributors
+
+- TheRoryWillAim(Mayank)
+
+## License  & copyright
+
+Licensed under the [MIT License](LICENSE). 
+
