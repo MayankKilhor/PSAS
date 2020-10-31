@@ -32,16 +32,27 @@ Run the following scripts in terminal of above code directory
 •	pip install virtualenv
 
 •	virtualenv env
+
 •	cd env/scripts
+
 •	activate.bat
+
 •	cd..
+
 •	cd..
+
 •	pip install selenium
+
 •	pip install urllib3
+
 •	pip install contextlib2
+
 •	pip install beautifulsoup4
+
 •	pip install pyowm==2.7.1
+
 •	pip install simple-image-download
+
 •	pip install Flask
 
 
