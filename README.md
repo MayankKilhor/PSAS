@@ -28,7 +28,9 @@ Work for most people nowadays involves using the internet on a daily basis, howe
 
 ## Implementation
 Run the following scripts in terminal of above code directory
+
 •	pip install virtualenv
+
 •	virtualenv env
 •	cd env/scripts
 •	activate.bat
