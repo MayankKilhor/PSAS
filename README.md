@@ -1,6 +1,6 @@
 # Python-Selenium-Automation-System
 
-##Introduction
+## Introduction
 
 Like many other methodological innovations, Automation has grown over the years with technological advancements, however very few people take advantage of the libraries and methods available to automate their daily tasks. This paper explores the avenue of automation along with scraping data from the internet. 
 
@@ -22,6 +22,24 @@ The objectives of the implementation are as follows:
 
 •	Provide a working interface to the user that works on menu-based selection with proper user sanitized inputs.
 
-##Innovation
+## Innovation
 
 Work for most people nowadays involves using the internet on a daily basis, however people sometimes need offline web pages and images. They may require to do trivial tasks repeatedly such as open multiple links, download multiple images and so on. They may not have the time required to manually perform multiple searches and operations over the internet. We intend to provide a toolset that can help such people and other students that need to scrape data off the internet and automate their work. This can help improve their efficiency along with lessening their burden. It can also be used by tech enthusiasts to explore the upcoming field of automation through programming.
+
+## Implementation
+Run the following scripts in terminal of above code directory
+•	pip install virtualenv
+•	virtualenv env
+•	cd env/scripts
+•	activate.bat
+•	cd..
+•	cd..
+•	pip install selenium
+•	pip install urllib3
+•	pip install contextlib2
+•	pip install beautifulsoup4
+•	pip install pyowm==2.7.1
+•	pip install simple-image-download
+•	pip install Flask
+
+
